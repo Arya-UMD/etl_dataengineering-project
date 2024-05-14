@@ -4,7 +4,8 @@ INST767 Final Project : Here we are bringing 3 Dynamic Cricket APIs to one Model
 Introduction 
 This report provides a detailed overview of your cricket data pipeline, which ingests data from the Cricbuzz API, transforms it, stores it in BigQuery, and prepares it for visualization in Looker Studio. This system allows for data-driven insights into cricket statistics, such as player rankings, team performance, and batting averages.
 
-1. Ingestion 
+Ingestion
+ 
 The data pipeline utilizes three Cloud Functions: 
 ● cf-extract-icc-ranking: Extracts data related to ICC ODI batting rankings.
 ● cf-extract-ipl-points-table: Extracts data on IPL points tables.
@@ -18,14 +19,16 @@ b. Transform: Cleans, filters, and formats the extracted data as needed.
 c. Store in CSV: Saves the transformed data as a CSV file to the Cloud Storage bucket "bkt-etl-data". 
 
 
-2.Transformation 
+Transformation 
+
 The transformation step is likely specific to each Cloud Function depending on the data structure retrieved from the API. It might involve: 
 ● Removing unwanted fields. 
 ● Renaming or restructuring fields for clarity. 
 ● Converting data types for consistency. 
 ● Handling missing or invalid values. 
 
-3. Storage (Load)
+Storage (Load)
+
 After transformation, each Cloud Function triggers a Dataflow job using a GCS-to-BigQuery template. This template loads the corresponding CSV file from the "bkt-etl-data" bucket into a specific BigQuery table: 
 ● icc-odi-batting-ranking: Stores ICC ODI batting ranking data.
 ● ipl-points-table: Stores IPL points table data. 
@@ -45,5 +48,6 @@ Cloud Scheduler
 
 
 
-4.Analysis
+Analysis
+
 This section demonstrates how our data model can be used to answer cricket-related questions: 
