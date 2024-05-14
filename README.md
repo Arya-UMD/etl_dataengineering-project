@@ -51,3 +51,29 @@ Cloud Scheduler
 Analysis
 
 This section demonstrates how our data model can be used to answer cricket-related questions: 
+
+Question 1
+
+Outstanding Performer
+
+Indian Premier League (IPL) is a sporting league to determine talents and in our first question we would like to see which player has topped his performance in the international stage in batting and as well as Topped the runs chart (top 10) in IPL as well.
+
+Executing query 1 : reference sql file for code
+
+![image](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/65151c5c-7ee5-4b70-bbe3-9922111038d5)
+
+We can see that Virat Kohli is the only player who has topped the runs chart (Highest run getter with 661 runs so IPL rank of 1) and also he is in the top 10 icc rankings (Odi Ranking number 3), we chose ODI format because it is the most defining format of the game and it has the major world cup.
+
+Question 2
+
+Qualification Scenario
+
+Indian Premier League (IPL) is a tough competition among 10 teams, we have done an analysis on May 11, 2024, during the crucial stage of the ongoing tournament because on this day May 14, 2024 most of the qualifications would have been done, so on May 11, 2024 what was the number of wins required by each team to qualify for the knock stages considering 8 wins out of 14 matches as the general cutoff for qualification.
+
+![WhatsApp Image 2024-05-11 at 22 48 03_a4030f1d](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/4f282dae-8666-43f5-84f3-e6c310205d22)
+
+This query shows the number of wins required by each team to qualify for the knockout games but if they have already lost 8 games and there is no scenario where they can win 8 games those teams will be considered eliminated from the playoffs race.
+
+Question 3
+
+
