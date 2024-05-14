@@ -1,0 +1,25 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "batter",
+        "type": "STRING"
+      },
+      {
+        "name": "matches",
+        "type": "INTEGER"
+      },
+      {
+        "name": "innings",
+        "type": "INTEGER"
+      },
+      {
+        "name": "runs",
+        "type": "INTEGER"
+      },
+      {
+        "name": "avg",
+        "type": "FLOAT"
+      }
+    ]
+  }
+  

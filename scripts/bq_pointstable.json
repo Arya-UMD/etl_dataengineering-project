@@ -1,0 +1,29 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "matchesPlayed",
+        "type": "INTEGER"
+      },
+      {
+        "name": "matchesWon",
+        "type": "INTEGER"
+      },
+      {
+        "name": "matchesLost",
+        "type": "INTEGER"
+      },
+      {
+        "name": "points",
+        "type": "INTEGER"
+      },
+      {
+        "name": "nrr",
+        "type": "STRING"
+      },
+      {
+        "name": "teamFullName",
+        "type": "STRING"
+      }
+    ]
+  }
+  
