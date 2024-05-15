@@ -11,9 +11,9 @@ The data pipeline utilizes three Cloud Functions:
 
 ● cf-icc-ranking: Extracts data related to ICC ODI batting rankings.
 
-● cf-ipl-points-table: Extracts data on IPL points tables.
+● cf-ipl-pointstable: Extracts data on IPL points tables.
 
-● cf-ipl-batting-stats: Extracts data on IPL batting statistics.
+● cf-ipl-battingstats: Extracts data on IPL batting statistics.
 
 ![WhatsApp Image 2024-05-14 at 19 34 26_cb10e5ae](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/c91821db-a965-4544-b2e8-53bc4e87296a)
 
