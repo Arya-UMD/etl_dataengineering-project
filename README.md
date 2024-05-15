@@ -1,11 +1,11 @@
 # etl_dataengineering-project
 INST767 Final Project : 
 ![IMG-20240510-WA0005](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/d8a368ca-5d08-4575-a123-55e884e6de3a)
-Introduction 
+**Introduction** 
 
 This report provides a detailed overview of our cricket data pipeline, which ingests data from three dynamic Cricbuzz APIs, transforms it, stores it in BigQuery, and prepares it for visualization in Looker Studio. This system allows for data-driven insights into cricket statistics, such as player rankings, team performance, and batting averages.
 
-Ingestion
+**Ingestion**
  
 The data pipeline utilizes three Cloud Functions: 
 
@@ -27,7 +27,7 @@ b. Transform: Cleans, filters, and formats the extracted data as needed.
 c. Store in CSV: Saves the transformed data as a CSV file to the Cloud Storage bucket "bkt-etl-data". 
 
 
-Transformation 
+**Transformation** 
 
 The transformation step is likely specific to each Cloud Function depending on the data structure retrieved from the API. It might involve: 
 
@@ -39,7 +39,7 @@ The transformation step is likely specific to each Cloud Function depending on t
 
 ● Handling missing or invalid values. 
 
-Storage (Load)
+**Storage (Load)**
 
 After transformation, each Cloud Function triggers a Dataflow job using a GCS-to-BigQuery template. This template loads the corresponding CSV file from the "bkt-etl-data" bucket into a specific BigQuery table:
 
@@ -64,7 +64,7 @@ Cloud Scheduler
 
 
 
-Analysis
+**Analysis**
 
 This section demonstrates how our data model can be used to answer cricket-related questions: 
 
@@ -131,7 +131,7 @@ IPL is a tournament specifically designed to find cricketing talents in India. N
 
 We can clearly see that there are 26.67% Indians in the Top 15 ICC rankings and now BCCI has good reason to go ahead and invest more in the IPL. 
 
-Future Scope
+**Future Scope**
 
 As a further extension of the Query and out of the scope of the project we visualized the final query on Looker Studio
 
