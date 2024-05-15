@@ -43,11 +43,11 @@ Storage (Load)
 
 After transformation, each Cloud Function triggers a Dataflow job using a GCS-to-BigQuery template. This template loads the corresponding CSV file from the "bkt-etl-data" bucket into a specific BigQuery table:
 
-● icc-odi-batting-ranking: Stores ICC ODI batting ranking data.
+● bq-load-icc-ranking: Stores ICC ODI batting ranking data.
 
-● ipl-points-table: Stores IPL points table data. 
+● bq-load-points-table: Stores IPL points table data. 
 
-● ipl-batting-stats: Stores IPL batting statistics data.
+● bq-load-ipl-batting-stat: Stores IPL batting statistics data.
 
 ![WhatsApp Image 2024-05-11 at 22 51 00_f4750190](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/29021374-d5b8-4fee-bf1d-52d0073ed84e)
 
