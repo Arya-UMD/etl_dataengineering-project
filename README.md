@@ -66,6 +66,9 @@ Here we can see all the three are under one model "Cricket Dataset"
 
 
 Cloud Scheduler 
+
+Now we schedule it run at regular intervals
+
 ![WhatsApp Image 2024-05-14 at 19 32 28_dd4392bd](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/c2773a27-1283-4d31-9dc5-182a65ca2732)
 
 
