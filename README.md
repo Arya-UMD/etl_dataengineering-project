@@ -116,6 +116,7 @@ IPL is a tournament specifically designed to find cricketing talents in India. N
 We can clearly see that there are 26.67% Indians in the Top 15 ICC rankings and now BCCI has good reason to go ahead and invest more in the IPL. 
 
 Future Scope
+
 As a further extension of the Query and out of the scope of the project we visualized the final query on Looker Studio
 
 ![image](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/adc08568-871d-4ee2-8afe-e2782ec65cc0)
