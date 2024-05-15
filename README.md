@@ -15,7 +15,7 @@ This report provides a detailed overview of our cricket data pipeline, which ing
  
 The data pipeline utilizes three Cloud Functions: 
 
-● cf-icc-ranking: Extracts data related to ICC ODI batting rankings.
+● cf-icc-rankings: Extracts data related to ICC ODI batting rankings.
 
 ● cf-ipl-pointstable: Extracts data on IPL points tables.
 
