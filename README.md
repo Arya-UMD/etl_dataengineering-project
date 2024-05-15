@@ -2,7 +2,8 @@
 INST767 Final Project : 
 ![IMG-20240510-WA0005](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/d8a368ca-5d08-4575-a123-55e884e6de3a)
 Introduction 
-This report provides a detailed overview of your cricket data pipeline, which ingests data from the Cricbuzz API, transforms it, stores it in BigQuery, and prepares it for visualization in Looker Studio. This system allows for data-driven insights into cricket statistics, such as player rankings, team performance, and batting averages.
+
+This report provides a detailed overview of our cricket data pipeline, which ingests data from the Cricbuzz API, transforms it, stores it in BigQuery, and prepares it for visualization in Looker Studio. This system allows for data-driven insights into cricket statistics, such as player rankings, team performance, and batting averages.
 
 Ingestion
  
