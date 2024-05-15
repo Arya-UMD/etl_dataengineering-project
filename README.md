@@ -68,6 +68,8 @@ Question 2
 
 Qualification Scenario
 
+Executing query 2 : reference sql file for code
+
 Indian Premier League (IPL) is a tough competition among 10 teams, we have done an analysis on May 11, 2024, during the crucial stage of the ongoing tournament because on this day May 14, 2024 most of the qualifications would have been done, so on May 11, 2024 what was the number of wins required by each team to qualify for the knock stages considering 8 wins out of 14 matches as the general cutoff for qualification.
 
 ![WhatsApp Image 2024-05-11 at 22 48 03_a4030f1d](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/4f282dae-8666-43f5-84f3-e6c310205d22)
@@ -75,5 +77,49 @@ Indian Premier League (IPL) is a tough competition among 10 teams, we have done 
 This query shows the number of wins required by each team to qualify for the knockout games but if they have already lost 8 games and there is no scenario where they can win 8 games those teams will be considered eliminated from the playoffs race.
 
 Question 3
+
+Best Batters vs Other Batters
+
+Executing query 3 : reference sql file for code
+
+In this question, we will compare the runs and average of top 5 run getters in the ongoing IPL and compare them with average runs and batting average of all other batsman combined, this would tell us how much better the top run getters are better than the rest of the batsman in the league.
+
+![image](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/d28b820c-15b0-49c0-a5b5-1657ed91a29a)
+
+Now we have a side by side comparison of top 5 run getters with the rest of the batsman
+
+Question 4
+
+Top Records for Busy People
+
+Executing query 4 : reference sql file for code
+
+A simple query that joins all the three tables and presents the the top record, this can be useful for people who particularly do not have time to follow cricket but are interested to be updated with the latest news.
+
+![WhatsApp Image 2024-05-14 at 17 39 26_942d91a0](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/22ae9f14-57e4-478a-a2c1-a487245b5389)
+
+![WhatsApp Image 2024-05-14 at 17 39 43_184ab9b9](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/71852244-dd9b-4636-89ed-47abc7d03293)
+
+
+Kolkata Knight Riders stand top of the IPL points table, Babar Azam tops the ICC rankings and Virat Kohli is the highest run getter in the IPL as of May 14, 2024
+
+Question 5
+
+Percentage of Indians in ICC rankings
+
+Executing query 5 : reference sql file for code
+
+IPL is a tournament specifically designed to find cricketing talents in India. Now Board of Control for Cricket in India (BCCI) is concerned about the number of Indians in the Rankings, which would help them to know whether IPL is really helping for Indian players if yes, they can invest more in the league.
+
+![image](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/149049bb-4792-4242-834b-07505e242131)
+
+We can clearly see that there are 26.67% Indians in the Top 15 ICC rankings and now BCCI has good reason to go ahead and invest more in the IPL. 
+
+Future Scope
+As a further extension of the Query and out of the scope of the project we visualized the final query on Looker Studio
+
+![image](https://github.com/Arya-UMD/etl_dataengineering-project/assets/152458007/adc08568-871d-4ee2-8afe-e2782ec65cc0)
+
+
 
 
